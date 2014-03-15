@@ -23,10 +23,26 @@
 		798D9BF118D4228000F0A2AB /* UIImage+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE318D4228000F0A2AB /* UIImage+MEExtensions.m */; };
 		798D9BF218D4228000F0A2AB /* UITableViewCell+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */; };
 		798D9BF318D4228000F0A2AB /* UIView+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */; };
+		798D9BFE18D428B000F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
+		798D9C0018D428B000F0A2AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BFF18D428B000F0A2AB /* CoreGraphics.framework */; };
+		798D9C0118D428B000F0A2AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BB718D421BD00F0A2AB /* UIKit.framework */; };
+		798D9C0718D428B000F0A2AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798D9C0518D428B000F0A2AB /* InfoPlist.strings */; };
+		798D9C0918D428B000F0A2AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9C0818D428B000F0A2AB /* main.m */; };
+		798D9C0D18D428B000F0A2AB /* MEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9C0C18D428B000F0A2AB /* MEAppDelegate.m */; };
+		798D9C0F18D428B000F0A2AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798D9C0E18D428B000F0A2AB /* Images.xcassets */; };
+		798D9C2A18D4291500F0A2AB /* MERootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9C2918D4291500F0A2AB /* MERootViewController.m */; };
+		798D9C2D18D4299A00F0A2AB /* libMEKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA318D421BD00F0A2AB /* libMEKit.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		798D9BB918D421BD00F0A2AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 798D9B9B18D421BD00F0A2AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 798D9BA218D421BD00F0A2AB;
+			remoteInfo = MEKit;
+		};
+		798D9C2B18D4299200F0A2AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 798D9B9B18D421BD00F0A2AB /* Project object */;
 			proxyType = 1;
@@ -77,6 +93,17 @@
 		798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+MEExtensions.m"; sourceTree = "<group>"; };
 		798D9BE618D4228000F0A2AB /* UIView+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MEExtensions.h"; sourceTree = "<group>"; };
 		798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MEExtensions.m"; sourceTree = "<group>"; };
+		798D9BFD18D428B000F0A2AB /* MEKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		798D9BFF18D428B000F0A2AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		798D9C0418D428B000F0A2AB /* MEKitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MEKitDemo-Info.plist"; sourceTree = "<group>"; };
+		798D9C0618D428B000F0A2AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		798D9C0818D428B000F0A2AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		798D9C0A18D428B000F0A2AB /* MEKitDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEKitDemo-Prefix.pch"; sourceTree = "<group>"; };
+		798D9C0B18D428B000F0A2AB /* MEAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEAppDelegate.h; sourceTree = "<group>"; };
+		798D9C0C18D428B000F0A2AB /* MEAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEAppDelegate.m; sourceTree = "<group>"; };
+		798D9C0E18D428B000F0A2AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		798D9C2818D4291500F0A2AB /* MERootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERootViewController.h; sourceTree = "<group>"; };
+		798D9C2918D4291500F0A2AB /* MERootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +126,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		798D9BFA18D428B000F0A2AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798D9C2D18D4299A00F0A2AB /* libMEKit.a in Frameworks */,
+				798D9C0018D428B000F0A2AB /* CoreGraphics.framework in Frameworks */,
+				798D9C0118D428B000F0A2AB /* UIKit.framework in Frameworks */,
+				798D9BFE18D428B000F0A2AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -107,6 +145,7 @@
 			children = (
 				798D9BA818D421BD00F0A2AB /* MEKit */,
 				798D9BBC18D421BD00F0A2AB /* MEKitTests */,
+				798D9C0218D428B000F0A2AB /* MEKitDemo */,
 				798D9BA518D421BD00F0A2AB /* Frameworks */,
 				798D9BA418D421BD00F0A2AB /* Products */,
 			);
@@ -117,6 +156,7 @@
 			children = (
 				798D9BA318D421BD00F0A2AB /* libMEKit.a */,
 				798D9BB318D421BD00F0A2AB /* MEKitTests.xctest */,
+				798D9BFD18D428B000F0A2AB /* MEKitDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -127,6 +167,7 @@
 				798D9BA618D421BD00F0A2AB /* Foundation.framework */,
 				798D9BB418D421BD00F0A2AB /* XCTest.framework */,
 				798D9BB718D421BD00F0A2AB /* UIKit.framework */,
+				798D9BFF18D428B000F0A2AB /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -225,6 +266,30 @@
 			name = Other;
 			sourceTree = "<group>";
 		};
+		798D9C0218D428B000F0A2AB /* MEKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				798D9C0B18D428B000F0A2AB /* MEAppDelegate.h */,
+				798D9C0C18D428B000F0A2AB /* MEAppDelegate.m */,
+				798D9C2818D4291500F0A2AB /* MERootViewController.h */,
+				798D9C2918D4291500F0A2AB /* MERootViewController.m */,
+				798D9C0E18D428B000F0A2AB /* Images.xcassets */,
+				798D9C0318D428B000F0A2AB /* Supporting Files */,
+			);
+			path = MEKitDemo;
+			sourceTree = "<group>";
+		};
+		798D9C0318D428B000F0A2AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				798D9C0418D428B000F0A2AB /* MEKitDemo-Info.plist */,
+				798D9C0518D428B000F0A2AB /* InfoPlist.strings */,
+				798D9C0818D428B000F0A2AB /* main.m */,
+				798D9C0A18D428B000F0A2AB /* MEKitDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -263,14 +328,38 @@
 			productReference = 798D9BB318D421BD00F0A2AB /* MEKitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		798D9BFC18D428B000F0A2AB /* MEKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 798D9C2218D428B000F0A2AB /* Build configuration list for PBXNativeTarget "MEKitDemo" */;
+			buildPhases = (
+				798D9BF918D428B000F0A2AB /* Sources */,
+				798D9BFA18D428B000F0A2AB /* Frameworks */,
+				798D9BFB18D428B000F0A2AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				798D9C2C18D4299200F0A2AB /* PBXTargetDependency */,
+			);
+			name = MEKitDemo;
+			productName = MEKitDemo;
+			productReference = 798D9BFD18D428B000F0A2AB /* MEKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		798D9B9B18D421BD00F0A2AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = ME;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Maestro, LLC.";
+				TargetAttributes = {
+					798D9BB218D421BD00F0A2AB = {
+						TestTargetID = 798D9BFC18D428B000F0A2AB;
+					};
+				};
 			};
 			buildConfigurationList = 798D9B9E18D421BD00F0A2AB /* Build configuration list for PBXProject "MEKit" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -286,6 +375,7 @@
 			targets = (
 				798D9BA218D421BD00F0A2AB /* MEKit */,
 				798D9BB218D421BD00F0A2AB /* MEKitTests */,
+				798D9BFC18D428B000F0A2AB /* MEKitDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -296,6 +386,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				798D9BC118D421BD00F0A2AB /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		798D9BFB18D428B000F0A2AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798D9C0718D428B000F0A2AB /* InfoPlist.strings in Resources */,
+				798D9C0F18D428B000F0A2AB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +425,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		798D9BF918D428B000F0A2AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798D9C0D18D428B000F0A2AB /* MEAppDelegate.m in Sources */,
+				798D9C0918D428B000F0A2AB /* main.m in Sources */,
+				798D9C2A18D4291500F0A2AB /* MERootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -334,6 +443,11 @@
 			target = 798D9BA218D421BD00F0A2AB /* MEKit */;
 			targetProxy = 798D9BB918D421BD00F0A2AB /* PBXContainerItemProxy */;
 		};
+		798D9C2C18D4299200F0A2AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 798D9BA218D421BD00F0A2AB /* MEKit */;
+			targetProxy = 798D9C2B18D4299200F0A2AB /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -341,6 +455,14 @@
 			isa = PBXVariantGroup;
 			children = (
 				798D9BC018D421BD00F0A2AB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		798D9C0518D428B000F0A2AB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				798D9C0618D428B000F0A2AB /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -446,6 +568,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MEKitDemo.app/MEKitDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -459,6 +582,7 @@
 				);
 				INFOPLIST_FILE = "MEKitTests/MEKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -467,6 +591,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MEKitDemo.app/MEKitDemo";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -476,7 +601,52 @@
 				GCC_PREFIX_HEADER = "MEKit/MEKit-Prefix.pch";
 				INFOPLIST_FILE = "MEKitTests/MEKitTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		798D9C2318D428B000F0A2AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MEKitDemo/MEKitDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MEKitDemo/MEKitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		798D9C2418D428B000F0A2AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MEKitDemo/MEKitDemo-Prefix.pch";
+				INFOPLIST_FILE = "MEKitDemo/MEKitDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -505,6 +675,14 @@
 			buildConfigurations = (
 				798D9BCA18D421BD00F0A2AB /* Debug */,
 				798D9BCB18D421BD00F0A2AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		798D9C2218D428B000F0A2AB /* Build configuration list for PBXNativeTarget "MEKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				798D9C2318D428B000F0A2AB /* Debug */,
+				798D9C2418D428B000F0A2AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
