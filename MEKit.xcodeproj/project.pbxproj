@@ -8,14 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		798D9BA718D421BD00F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
-		798D9BAC18D421BD00F0A2AB /* MEKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BAB18D421BD00F0A2AB /* MEKit.h */; };
-		798D9BAE18D421BD00F0A2AB /* MEKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BAD18D421BD00F0A2AB /* MEKit.m */; };
 		798D9BB518D421BD00F0A2AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BB418D421BD00F0A2AB /* XCTest.framework */; };
 		798D9BB618D421BD00F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
 		798D9BB818D421BD00F0A2AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BB718D421BD00F0A2AB /* UIKit.framework */; };
 		798D9BBB18D421BD00F0A2AB /* libMEKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA318D421BD00F0A2AB /* libMEKit.a */; };
 		798D9BC118D421BD00F0A2AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798D9BBF18D421BD00F0A2AB /* InfoPlist.strings */; };
 		798D9BC318D421BD00F0A2AB /* MEKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BC218D421BD00F0A2AB /* MEKitTests.m */; };
+		798D9BE818D4228000F0A2AB /* CAGradientLayer+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BCD18D4228000F0A2AB /* CAGradientLayer+MEExtensions.m */; };
+		798D9BE918D4228000F0A2AB /* CATransaction+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BCF18D4228000F0A2AB /* CATransaction+MEExtensions.m */; };
+		798D9BEA18D4228000F0A2AB /* MEAnythingGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BD118D4228000F0A2AB /* MEAnythingGestureRecognizer.m */; };
+		798D9BEC18D4228000F0A2AB /* MEGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BD518D4228000F0A2AB /* MEGradientView.m */; };
+		798D9BEF18D4228000F0A2AB /* UIColor+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BDF18D4228000F0A2AB /* UIColor+MEExtensions.m */; };
+		798D9BF018D4228000F0A2AB /* UIFont+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE118D4228000F0A2AB /* UIFont+MEExtensions.m */; };
+		798D9BF118D4228000F0A2AB /* UIImage+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE318D4228000F0A2AB /* UIImage+MEExtensions.m */; };
+		798D9BF218D4228000F0A2AB /* UITableViewCell+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */; };
+		798D9BF318D4228000F0A2AB /* UIView+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +42,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				798D9BAC18D421BD00F0A2AB /* MEKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,14 +51,32 @@
 		798D9BA318D421BD00F0A2AB /* libMEKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMEKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		798D9BA618D421BD00F0A2AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		798D9BAA18D421BD00F0A2AB /* MEKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEKit-Prefix.pch"; sourceTree = "<group>"; };
-		798D9BAB18D421BD00F0A2AB /* MEKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MEKit.h; sourceTree = "<group>"; };
-		798D9BAD18D421BD00F0A2AB /* MEKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEKit.m; sourceTree = "<group>"; };
 		798D9BB318D421BD00F0A2AB /* MEKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		798D9BB418D421BD00F0A2AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		798D9BB718D421BD00F0A2AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		798D9BBE18D421BD00F0A2AB /* MEKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MEKitTests-Info.plist"; sourceTree = "<group>"; };
 		798D9BC018D421BD00F0A2AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		798D9BC218D421BD00F0A2AB /* MEKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEKitTests.m; sourceTree = "<group>"; };
+		798D9BCC18D4228000F0A2AB /* CAGradientLayer+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+MEExtensions.h"; sourceTree = "<group>"; };
+		798D9BCD18D4228000F0A2AB /* CAGradientLayer+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+MEExtensions.m"; sourceTree = "<group>"; };
+		798D9BCE18D4228000F0A2AB /* CATransaction+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATransaction+MEExtensions.h"; sourceTree = "<group>"; };
+		798D9BCF18D4228000F0A2AB /* CATransaction+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATransaction+MEExtensions.m"; sourceTree = "<group>"; };
+		798D9BD018D4228000F0A2AB /* MEAnythingGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEAnythingGestureRecognizer.h; sourceTree = "<group>"; };
+		798D9BD118D4228000F0A2AB /* MEAnythingGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEAnythingGestureRecognizer.m; sourceTree = "<group>"; };
+		798D9BD418D4228000F0A2AB /* MEGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEGradientView.h; sourceTree = "<group>"; };
+		798D9BD518D4228000F0A2AB /* MEGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEGradientView.m; sourceTree = "<group>"; };
+		798D9BD618D4228000F0A2AB /* MEKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKit.h; sourceTree = "<group>"; };
+		798D9BD918D4228000F0A2AB /* MEKitMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKitMacros.h; sourceTree = "<group>"; };
+		798D9BDE18D4228000F0A2AB /* UIColor+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MEExtensions.h"; sourceTree = "<group>"; };
+		798D9BDF18D4228000F0A2AB /* UIColor+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MEExtensions.m"; sourceTree = "<group>"; };
+		798D9BE018D4228000F0A2AB /* UIFont+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MEExtensions.h"; sourceTree = "<group>"; };
+		798D9BE118D4228000F0A2AB /* UIFont+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MEExtensions.m"; sourceTree = "<group>"; };
+		798D9BE218D4228000F0A2AB /* UIImage+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MEExtensions.h"; sourceTree = "<group>"; };
+		798D9BE318D4228000F0A2AB /* UIImage+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MEExtensions.m"; sourceTree = "<group>"; };
+		798D9BE418D4228000F0A2AB /* UITableViewCell+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+MEExtensions.h"; sourceTree = "<group>"; };
+		798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+MEExtensions.m"; sourceTree = "<group>"; };
+		798D9BE618D4228000F0A2AB /* UIView+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MEExtensions.h"; sourceTree = "<group>"; };
+		798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MEExtensions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,8 +134,11 @@
 		798D9BA818D421BD00F0A2AB /* MEKit */ = {
 			isa = PBXGroup;
 			children = (
-				798D9BAB18D421BD00F0A2AB /* MEKit.h */,
-				798D9BAD18D421BD00F0A2AB /* MEKit.m */,
+				798D9BD618D4228000F0A2AB /* MEKit.h */,
+				798D9BF418D423B700F0A2AB /* Headers */,
+				798D9BF618D423DB00F0A2AB /* Categories */,
+				798D9BF718D4241C00F0A2AB /* Views */,
+				798D9BF818D426BA00F0A2AB /* Other */,
 				798D9BA918D421BD00F0A2AB /* Supporting Files */,
 			);
 			path = MEKit;
@@ -141,6 +168,61 @@
 				798D9BBF18D421BD00F0A2AB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		798D9BF418D423B700F0A2AB /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				798D9BD918D4228000F0A2AB /* MEKitMacros.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		798D9BF518D423C900F0A2AB /* Quartz Core */ = {
+			isa = PBXGroup;
+			children = (
+				798D9BCC18D4228000F0A2AB /* CAGradientLayer+MEExtensions.h */,
+				798D9BCD18D4228000F0A2AB /* CAGradientLayer+MEExtensions.m */,
+				798D9BCE18D4228000F0A2AB /* CATransaction+MEExtensions.h */,
+				798D9BCF18D4228000F0A2AB /* CATransaction+MEExtensions.m */,
+			);
+			name = "Quartz Core";
+			sourceTree = "<group>";
+		};
+		798D9BF618D423DB00F0A2AB /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				798D9BDE18D4228000F0A2AB /* UIColor+MEExtensions.h */,
+				798D9BDF18D4228000F0A2AB /* UIColor+MEExtensions.m */,
+				798D9BE018D4228000F0A2AB /* UIFont+MEExtensions.h */,
+				798D9BE118D4228000F0A2AB /* UIFont+MEExtensions.m */,
+				798D9BE218D4228000F0A2AB /* UIImage+MEExtensions.h */,
+				798D9BE318D4228000F0A2AB /* UIImage+MEExtensions.m */,
+				798D9BE418D4228000F0A2AB /* UITableViewCell+MEExtensions.h */,
+				798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */,
+				798D9BE618D4228000F0A2AB /* UIView+MEExtensions.h */,
+				798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */,
+				798D9BF518D423C900F0A2AB /* Quartz Core */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		798D9BF718D4241C00F0A2AB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				798D9BD418D4228000F0A2AB /* MEGradientView.h */,
+				798D9BD518D4228000F0A2AB /* MEGradientView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		798D9BF818D426BA00F0A2AB /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				798D9BD018D4228000F0A2AB /* MEAnythingGestureRecognizer.h */,
+				798D9BD118D4228000F0A2AB /* MEAnythingGestureRecognizer.m */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +306,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				798D9BAE18D421BD00F0A2AB /* MEKit.m in Sources */,
+				798D9BE918D4228000F0A2AB /* CATransaction+MEExtensions.m in Sources */,
+				798D9BF018D4228000F0A2AB /* UIFont+MEExtensions.m in Sources */,
+				798D9BE818D4228000F0A2AB /* CAGradientLayer+MEExtensions.m in Sources */,
+				798D9BEC18D4228000F0A2AB /* MEGradientView.m in Sources */,
+				798D9BEF18D4228000F0A2AB /* UIColor+MEExtensions.m in Sources */,
+				798D9BF118D4228000F0A2AB /* UIImage+MEExtensions.m in Sources */,
+				798D9BF218D4228000F0A2AB /* UITableViewCell+MEExtensions.m in Sources */,
+				798D9BF318D4228000F0A2AB /* UIView+MEExtensions.m in Sources */,
+				798D9BEA18D4228000F0A2AB /* MEAnythingGestureRecognizer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

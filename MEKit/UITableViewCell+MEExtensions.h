@@ -1,8 +1,8 @@
 //
-//  MEKit.h
+//  UITableViewCell+MEExtensions.h
 //  MEFrameworks
 //
-//  Created by William Towe on 4/17/13.
+//  Created by William Towe on 1/22/13.
 //  Copyright (c) 2013 Maestro. All rights reserved.
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
@@ -11,20 +11,24 @@
 // 
 //  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-#ifndef _ME_KIT_
-#define _ME_KIT_
+#import <UIKit/UIKit.h>
 
-#import <MEKit/MEKitMacros.h>
+@interface UITableViewCell (MEExtensions)
 
-#import <MEKit/UIColor+MEExtensions.h>
-#import <MEKit/UIImage+MEExtensions.h>
-#import <MEKit/UIView+MEExtensions.h>
-#import <MEKit/UITableViewCell+MEExtensions.h>
-#import <MEKit/UIFont+MEExtensions.h>
+/**
+ Returns the reuse identifier for a given class.
+ 
+ @return The reuse identifier for the receiver
+ */
++ (NSString *)ME_reuseIdentifier;
 
-#import <MEKit/CAGradientLayer+MEExtensions.h>
-#import <MEKit/CATransaction+MEExtensions.h>
+/**
+ Returns the minimum size required to fit the content of the receiver given the provided size.
+ 
+ @param size The maximum size constraint
+ @return The minimum required size
+ @warning *NOTE:* The receiver must be setup to use autolayout. If it is not, the result is undefined
+ */
+- (CGSize)ME_autolayoutSizeThatFits:(CGSize)size;
 
-#import <MEKit/MEGradientView.h>
-
-#endif
+@end
