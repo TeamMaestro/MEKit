@@ -1,6 +1,6 @@
 //
 //  CATransaction+MEExtensions.m
-//  ZM69-Arthritis411-iPhone
+//  MEKit
 //
 //  Created by William Towe on 4/26/12.
 //  Copyright (c) 2012 Maestro, LLC. All rights reserved.

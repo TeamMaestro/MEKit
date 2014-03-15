@@ -25,6 +25,8 @@
 #import <MEKit/CAGradientLayer+MEExtensions.h>
 #import <MEKit/CATransaction+MEExtensions.h>
 
+#import <MEKit/MEAnythingGestureRecognizer.h>
+
 #import <MEKit/MEGradientView.h>
 
 #import <MEKit/MESelectedLocalizationViewController.h>

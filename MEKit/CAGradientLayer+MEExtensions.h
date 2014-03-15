@@ -1,6 +1,6 @@
 //
 //  CAGradientLayer+MEExtensions.h
-//  ZM69-Arthritis411-iPhone
+//  MEKit
 //
 //  Created by William Towe on 5/29/12.
 //  Copyright (c) 2012 Maestro, LLC. All rights reserved.
