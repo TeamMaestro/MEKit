@@ -25,7 +25,7 @@
 + (void)ME_beginForAnimations:(void (^)(void))animations completion:(void (^)(void))completion disableActions:(BOOL)disableActions;
 
 /**
- Calls [self ME_beginForAnimations:animations completion:nil disableActions:disableActions]
+ Calls `[self ME_beginForAnimations:animations completion:nil disableActions:disableActions]`
  */
 + (void)ME_beginForAnimations:(void (^)(void))animations disableActions:(BOOL)disableActions;
 

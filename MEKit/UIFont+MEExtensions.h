@@ -15,9 +15,29 @@
 
 @interface UIFont (MEExtensions)
 
+/**
+ Returns the directory url for the directory containing custom fonts.
+ 
+ By default, this returns `[[NSBundle mainBundle] URLForResource:@"Fonts" withExtension:nil]`.
+ */
 + (NSURL *)ME_fontsDirectoryURL;
+/**
+ Sets the directory url for the directory containing custom fonts.
+ 
+ @param fontsDirectoryURL The url for the directory of fonts you want loaded
+ @warning *NOTE:* passing nil will clear any custom values and use the default value from `ME_fontsDirectoryURL`
+ */
 + (void)ME_setFontsDirectoryURL:(NSURL *)fontsDirectoryURL;
 
+/**
+ Calls through to `fontWithName:size:`, but first any fonts found in the directory url returned by `ME_fontsDirectoryURL` are registered using `CTFontManagerRegisterGraphicsFont()`.
+ 
+ This eliminates the need to list all custom fonts in the app info plist. Instead place them in a directory inside the app bundle ("Fonts" is the default directory name) and they will be registered the first time this method is called.
+ 
+ @param fontName The name of the font (e.g. `@"Helvetica-Neue"`)
+ @param size The size of the font
+ @return The font with _fontName_ of _size_
+ */
 + (UIFont *)ME_fontWithName:(NSString *)fontName size:(CGFloat)size;
 
 @end

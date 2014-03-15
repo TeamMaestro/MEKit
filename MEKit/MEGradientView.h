@@ -14,7 +14,7 @@
 #import <UIKit/UIKit.h>
 
 /**
- `MEGradientView` is a thin wrapper around `CAGradientLayer`.
+ `MEGradientView` is a light wrapper around `CAGradientLayer`.
  
  Its methods map to the corresponding `CAGradientLayer` methods and perform the necessary NS to CG conversions for you.
  */

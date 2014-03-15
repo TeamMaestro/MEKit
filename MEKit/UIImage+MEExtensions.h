@@ -18,7 +18,7 @@
 /**
  Searches for the given image in the given bundle, caches the result and returns it.
  
- @param imageName The name of the image to search for, excluding any device/resolution modifiers (e.g. @2x, ~ipad, ~iphone, etc)
+ @param imageName The name of the image to search for, excluding any device/resolution modifiers (e.g. @2x, ~ipad, ~iphone, etc.)
  @param bundleName The name of the bundle that contains the image
  @exception NSException Thrown if _imageName_ or _bundleName_ are nil
  @return The image, or nil if the image could not be located
@@ -34,7 +34,7 @@
  */
 + (UIImage *)ME_imageByTintingImage:(UIImage *)image withColor:(UIColor *)color;
 /**
- Calls [self.class ME_imageByTintingImage:self withColor:color]
+ Calls `[self.class ME_imageByTintingImage:self withColor:color]`
  */
 - (UIImage *)ME_imageByTintingWithColor:(UIColor *)color;
 

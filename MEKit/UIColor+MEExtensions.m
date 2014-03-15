@@ -15,18 +15,6 @@
 
 @implementation UIColor (MEExtensions)
 
-#define MAKEBYTE(_VALUE_) (int)(_VALUE_ * 0xFF) & 0xFF
-
-- (NSString *)ME_hexadecimalString {
-    CGFloat red=0, green=0, blue=0;
-    
-    [self getRed:&red green:&green blue:&blue alpha:NULL];
-    
-    return [NSString stringWithFormat:@"%02x%02x%02x",MAKEBYTE(red),MAKEBYTE(green),MAKEBYTE(blue)];
-}
-
-// original method can be found at http://www.karelia.com/cocoa_legacy/Foundation_Categories/NSColor__Instantiat.m
-
 + (UIColor *)ME_colorWithHexadecimalString:(NSString *)hexadecimalString; {
     if (!hexadecimalString.length)
         return nil;

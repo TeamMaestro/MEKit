@@ -16,7 +16,13 @@
 
 #import <UIKit/UIDevice.h>
 
+/**
+ Returns YES if the device is an iPhone, NO otherwise.
+ */
 #define MEKitIsiPhone() (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone)
+/**
+ Returns YES if the device is an iPad, NO otherwise.
+ */
 #define MEKitIsiPad() (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
 
 #endif
