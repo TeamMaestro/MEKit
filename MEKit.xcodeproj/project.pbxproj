@@ -627,7 +627,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MEKit/MEKit-Prefix.pch";
 				OTHER_LDFLAGS = "$(inherited)";
+				PRIVATE_HEADERS_FOLDER_PATH = "${PUBLIC_HEADERS_FOLDER_PATH}/${PROJECT_NAME}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -640,7 +642,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MEKit/MEKit-Prefix.pch";
 				OTHER_LDFLAGS = "$(inherited)";
+				PRIVATE_HEADERS_FOLDER_PATH = "${PUBLIC_HEADERS_FOLDER_PATH}/${PROJECT_NAME}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = include;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -707,7 +711,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"${BUILT_PRODUCTS_DIR}/include\"",
 				);
 				INFOPLIST_FILE = "MEKitDemo/MEKitDemo-Info.plist";
 				OTHER_LDFLAGS = (
@@ -736,7 +739,6 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"\"${BUILT_PRODUCTS_DIR}/include\"",
 				);
 				INFOPLIST_FILE = "MEKitDemo/MEKitDemo-Info.plist";
 				OTHER_LDFLAGS = (
