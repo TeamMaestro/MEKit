@@ -20,10 +20,28 @@
  
  @param imageName The name of the image to search for, excluding any device/resolution modifiers (e.g. @2x, ~ipad, ~iphone, etc.)
  @param bundleName The name of the bundle that contains the image
- @exception NSException Thrown if _imageName_ or _bundleName_ are nil
  @return The image, or nil if the image could not be located
+ @exception NSException Thrown if _imageName_ or _bundleName_ are nil
  */
 + (UIImage *)ME_imageNamed:(NSString *)imageName inBundleNamed:(NSString *)bundleName;
+
+/**
+ Returns an image created by rendering _image_ with _color_.
+ 
+ This method leverages the `imageWithRenderingMode:` method that was added in iOS 7.
+ 
+ @param image The image to render as a template
+ @param color The color to use when rendering _image_
+ @return The rendered image
+ @exception NSException Thrown if _image_ or _color_ are nil
+ */
++ (UIImage *)ME_imageByRenderingImage:(UIImage *)image withColor:(UIColor *)color;
+/**
+ Calls `[ME_imageByRenderingImage:self withColor:color]`
+ 
+ @see ME_imageByRenderingImage:color:
+ */
+- (UIImage *)ME_imageByRenderingWithColor:(UIColor *)color;
 
 /**
  Creates a new image by first drawing the image then drawing a rectangle of color over it.
@@ -31,10 +49,13 @@
  @param image The original image
  @param color The color to overlay on top of the image, it should have some level of opacity
  @return The new image
+ @exception NSException Thrown if _image_ or _color_ are nil
  */
 + (UIImage *)ME_imageByTintingImage:(UIImage *)image withColor:(UIColor *)color;
 /**
  Calls `[self.class ME_imageByTintingImage:self withColor:color]`
+ 
+ @see ME_imageByTintingImage:color:
  */
 - (UIImage *)ME_imageByTintingWithColor:(UIColor *)color;
 
