@@ -44,6 +44,7 @@
 		798D9C3618D42B8E00F0A2AB /* CATransaction+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BCE18D4228000F0A2AB /* CATransaction+MEExtensions.h */; };
 		798D9C3718D42B9500F0A2AB /* MEGradientView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BD418D4228000F0A2AB /* MEGradientView.h */; };
 		798D9C3818D42B9800F0A2AB /* MEAnythingGestureRecognizer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BD018D4228000F0A2AB /* MEAnythingGestureRecognizer.h */; };
+		798D9C3C18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9C3B18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +130,8 @@
 		798D9C0E18D428B000F0A2AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		798D9C2818D4291500F0A2AB /* MERootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERootViewController.h; sourceTree = "<group>"; };
 		798D9C2918D4291500F0A2AB /* MERootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERootViewController.m; sourceTree = "<group>"; };
+		798D9C3A18D4CD6300F0A2AB /* MESelectedLocalizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESelectedLocalizationViewController.h; sourceTree = "<group>"; };
+		798D9C3B18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESelectedLocalizationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,6 +210,7 @@
 				798D9BF418D423B700F0A2AB /* Headers */,
 				798D9BF618D423DB00F0A2AB /* Categories */,
 				798D9BF718D4241C00F0A2AB /* Views */,
+				798D9C3918D4CD4500F0A2AB /* View Controllers */,
 				798D9BF818D426BA00F0A2AB /* Other */,
 				798D9BA918D421BD00F0A2AB /* Supporting Files */,
 			);
@@ -316,6 +320,15 @@
 				798D9C0A18D428B000F0A2AB /* MEKitDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		798D9C3918D4CD4500F0A2AB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				798D9C3A18D4CD6300F0A2AB /* MESelectedLocalizationViewController.h */,
+				798D9C3B18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -468,6 +481,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798D9C3C18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m in Sources */,
 				798D9BE918D4228000F0A2AB /* CATransaction+MEExtensions.m in Sources */,
 				798D9BF018D4228000F0A2AB /* UIFont+MEExtensions.m in Sources */,
 				798D9BE818D4228000F0A2AB /* CAGradientLayer+MEExtensions.m in Sources */,
