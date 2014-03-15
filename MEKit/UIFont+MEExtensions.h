@@ -24,6 +24,8 @@
 /**
  Sets the directory url for the directory containing custom fonts.
  
+ This must be set before the first call to `ME_fontWithName:size:`.
+ 
  @param fontsDirectoryURL The url for the directory of fonts you want loaded
  @warning *NOTE:* passing nil will clear any custom values and use the default value from `ME_fontsDirectoryURL`
  */

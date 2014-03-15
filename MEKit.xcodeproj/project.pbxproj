@@ -45,6 +45,7 @@
 		798D9C3718D42B9500F0A2AB /* MEGradientView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BD418D4228000F0A2AB /* MEGradientView.h */; };
 		798D9C3818D42B9800F0A2AB /* MEAnythingGestureRecognizer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BD018D4228000F0A2AB /* MEAnythingGestureRecognizer.h */; };
 		798D9C3C18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9C3B18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m */; };
+		798D9C3D18D4CF7800F0A2AB /* MESelectedLocalizationViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9C3A18D4CD6300F0A2AB /* MESelectedLocalizationViewController.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 				798D9C3618D42B8E00F0A2AB /* CATransaction+MEExtensions.h in CopyFiles */,
 				798D9C2E18D42B8700F0A2AB /* MEKit.h in CopyFiles */,
 				798D9C2F18D42B8700F0A2AB /* MEKitMacros.h in CopyFiles */,
+				798D9C3D18D4CF7800F0A2AB /* MESelectedLocalizationViewController.h in CopyFiles */,
 				798D9C3018D42B8700F0A2AB /* UIColor+MEExtensions.h in CopyFiles */,
 				798D9C3118D42B8700F0A2AB /* UIFont+MEExtensions.h in CopyFiles */,
 				798D9C3218D42B8700F0A2AB /* UIImage+MEExtensions.h in CopyFiles */,

@@ -13,10 +13,25 @@
 
 #import <UIKit/UIKit.h>
 
+/**
+ `MESelectedLocalizationViewController` is a light wrapper around the localization methods provided in `MEFoundation/NSObject+MELocalizationExtensions.h`.
+ 
+ It provides a property to retrieve the selected localization and a public method to override and respond to changes when the selected localization does change.
+ */
 @interface MESelectedLocalizationViewController : UIViewController
 
+/**
+ Returns the selected localization.
+ 
+ Calls through to `ME_selectedLocalization` and `ME_setSelectedLocalization:`.
+ */
 @property (strong,nonatomic) NSString *selectedLocalication;
 
+/**
+ This method is called whenever `ME_selectedLocalization` changes. The receiver can use this method to update anything that depends on the selected localization.
+ 
+ @param selectedLocalization The selected localization (e.g. `@"en"`)
+ */
 - (void)selectedLocalizationDidChange:(NSString *)selectedLocalization;
 
 @end
