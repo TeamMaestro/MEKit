@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3B57C4C810C54534A6ABDD75 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1006C5AD5AB1444EB55FC3FF /* libPods.a */; };
+		792A475E18DB5F4F00CE7538 /* UIViewController+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */; };
+		792A475F18DB5FA800CE7538 /* UIViewController+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */; };
 		798D9BA718D421BD00F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
 		798D9BB518D421BD00F0A2AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BB418D421BD00F0A2AB /* XCTest.framework */; };
 		798D9BB618D421BD00F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
@@ -75,6 +77,7 @@
 				798D9C3818D42B9800F0A2AB /* MEAnythingGestureRecognizer.h in CopyFiles */,
 				798D9C3518D42B8E00F0A2AB /* CAGradientLayer+MEExtensions.h in CopyFiles */,
 				798D9C3618D42B8E00F0A2AB /* CATransaction+MEExtensions.h in CopyFiles */,
+				792A475F18DB5FA800CE7538 /* UIViewController+MEExtensions.h in CopyFiles */,
 				798D9C2E18D42B8700F0A2AB /* MEKit.h in CopyFiles */,
 				798D9C2F18D42B8700F0A2AB /* MEKitMacros.h in CopyFiles */,
 				798D9C3D18D4CF7800F0A2AB /* MESelectedLocalizationViewController.h in CopyFiles */,
@@ -92,6 +95,8 @@
 /* Begin PBXFileReference section */
 		1006C5AD5AB1444EB55FC3FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6668F2D7971C4E4FAFBB3873 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MEExtensions.h"; sourceTree = "<group>"; };
+		792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MEExtensions.m"; sourceTree = "<group>"; };
 		798D9BA318D421BD00F0A2AB /* libMEKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMEKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		798D9BA618D421BD00F0A2AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		798D9BAA18D421BD00F0A2AB /* MEKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -277,6 +282,8 @@
 				798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */,
 				798D9BE618D4228000F0A2AB /* UIView+MEExtensions.h */,
 				798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */,
+				792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */,
+				792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */,
 				798D9BF518D423C900F0A2AB /* Quartz Core */,
 			);
 			name = Categories;
@@ -484,6 +491,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				798D9C3C18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m in Sources */,
+				792A475E18DB5F4F00CE7538 /* UIViewController+MEExtensions.m in Sources */,
 				798D9BE918D4228000F0A2AB /* CATransaction+MEExtensions.m in Sources */,
 				798D9BF018D4228000F0A2AB /* UIFont+MEExtensions.m in Sources */,
 				798D9BE818D4228000F0A2AB /* CAGradientLayer+MEExtensions.m in Sources */,
