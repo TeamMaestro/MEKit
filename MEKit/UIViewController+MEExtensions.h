@@ -10,6 +10,13 @@
 
 @interface UIViewController (MEExtensions)
 
+/**
+ Returns the root view controller of the receiver.
+ 
+ This will either be the `rootViewController` of the application delegate, or the root view controller of the presented view controller if one exists.
+ 
+ @return The root view controller of the receiver
+ */
 - (UIViewController *)ME_rootViewController;
 
 @end
