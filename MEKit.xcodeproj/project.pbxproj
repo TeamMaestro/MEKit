@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3B57C4C810C54534A6ABDD75 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1006C5AD5AB1444EB55FC3FF /* libPods.a */; };
+		791F836318F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 791F836218F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m */; };
 		792A475E18DB5F4F00CE7538 /* UIViewController+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */; };
 		792A475F18DB5FA800CE7538 /* UIViewController+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */; };
 		798D9BA718D421BD00F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
@@ -95,6 +96,8 @@
 /* Begin PBXFileReference section */
 		1006C5AD5AB1444EB55FC3FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		6668F2D7971C4E4FAFBB3873 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		791F836118F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+MEExtensions.h"; sourceTree = "<group>"; };
+		791F836218F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+MEExtensions.m"; sourceTree = "<group>"; };
 		792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MEExtensions.h"; sourceTree = "<group>"; };
 		792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MEExtensions.m"; sourceTree = "<group>"; };
 		798D9BA318D421BD00F0A2AB /* libMEKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMEKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -280,6 +283,8 @@
 				798D9BE318D4228000F0A2AB /* UIImage+MEExtensions.m */,
 				798D9BE418D4228000F0A2AB /* UITableViewCell+MEExtensions.h */,
 				798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */,
+				791F836118F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.h */,
+				791F836218F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m */,
 				798D9BE618D4228000F0A2AB /* UIView+MEExtensions.h */,
 				798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */,
 				792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */,
@@ -494,6 +499,7 @@
 				792A475E18DB5F4F00CE7538 /* UIViewController+MEExtensions.m in Sources */,
 				798D9BE918D4228000F0A2AB /* CATransaction+MEExtensions.m in Sources */,
 				798D9BF018D4228000F0A2AB /* UIFont+MEExtensions.m in Sources */,
+				791F836318F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m in Sources */,
 				798D9BE818D4228000F0A2AB /* CAGradientLayer+MEExtensions.m in Sources */,
 				798D9BEC18D4228000F0A2AB /* MEGradientView.m in Sources */,
 				798D9BEF18D4228000F0A2AB /* UIColor+MEExtensions.m in Sources */,
