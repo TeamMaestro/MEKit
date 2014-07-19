@@ -6,13 +6,13 @@ Pod::Spec.new do |spec|
   spec.homepage = "https://github.com/MaestroElearning/MEKit"
   spec.source = {:git => "https://github.com/MaestroElearning/MEKit.git", :tag => spec.version.to_s}
   spec.summary = "A collection of classes that extend the UIKit framework."
-  spec.description = "This library contains a number of useful categories on UIColor, UIFont, UIImage, UITableViewCell, and UIView. The library also contains miscellaneous classses that covered our common use cases. For example, MESelectedLocalizationViewController is a light wrapper around the on-the-fly localization methods provided by MEFoundation."
+  spec.description = "This library contains a number of useful categories on UIColor, UIFont, UIImage, UITableViewCell, and UIView."
   
   spec.platform = :ios, "7.0"
   
   spec.dependency "MEFoundation", "~> 1.0.0"
   spec.requires_arc = true
-  spec.frameworks = "Foundation", "CoreGraphics", "CoreText", "UIKit", "QuartzCore"
+  spec.frameworks = "Foundation", "CoreGraphics", "CoreText", "UIKit", "QuartzCore", "Accelerate", "CoreImage"
   
   spec.source_files = "MEKit"
 end
