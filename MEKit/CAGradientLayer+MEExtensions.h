@@ -21,5 +21,5 @@
  @param colors The colors for the layer, they should be `UIColor` instances
  @param locations The locations for colors, they should be `NSNumber` instances
  */
-+ (instancetype)ME_gradientLayerWithBounds:(CGRect)bounds colors:(NSArray *)colors locations:(NSArray *)locations;
++ (instancetype)ME_gradientLayerWithBounds:(CGRect)bounds colors:(NSArray *)colors locations:(NSArray *)locations __attribute__((deprecated("Use MEGradientView instead")));
 @end
