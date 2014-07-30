@@ -29,6 +29,6 @@
  @return The minimum required size
  @warning *NOTE:* The receiver must be setup to use autolayout. If it is not, the result is undefined
  */
-- (CGSize)ME_autolayoutSizeThatFits:(CGSize)size;
+- (CGSize)ME_autolayoutSizeThatFits:(CGSize)size __attribute__((deprecated("No longer needed in iOS 8")));
 
 @end
