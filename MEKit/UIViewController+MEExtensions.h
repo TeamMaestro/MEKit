@@ -17,6 +17,6 @@
  
  @return The root view controller of the receiver
  */
-- (UIViewController *)ME_rootViewController;
+- (UIViewController *)ME_rootViewController __attribute__((deprecated("This method is no longer needed in iOS 8")));
 
 @end
