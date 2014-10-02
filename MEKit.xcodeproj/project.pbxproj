@@ -11,6 +11,9 @@
 		791F836318F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 791F836218F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m */; };
 		792A475E18DB5F4F00CE7538 /* UIViewController+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */; };
 		792A475F18DB5FA800CE7538 /* UIViewController+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */; };
+		79409B0219DDC811009DC76F /* UIImage+MEPDFExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79409B0119DDC811009DC76F /* UIImage+MEPDFExtensions.m */; };
+		79409B0319DDC82C009DC76F /* UIImage+MEPDFExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79409B0019DDC811009DC76F /* UIImage+MEPDFExtensions.h */; };
+		79409B0519DDCB21009DC76F /* contrast.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 79409B0419DDCB21009DC76F /* contrast.pdf */; };
 		798D9BA718D421BD00F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
 		798D9BB518D421BD00F0A2AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BB418D421BD00F0A2AB /* XCTest.framework */; };
 		798D9BB618D421BD00F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
@@ -85,6 +88,7 @@
 				798D9C3018D42B8700F0A2AB /* UIColor+MEExtensions.h in CopyFiles */,
 				798D9C3118D42B8700F0A2AB /* UIFont+MEExtensions.h in CopyFiles */,
 				798D9C3218D42B8700F0A2AB /* UIImage+MEExtensions.h in CopyFiles */,
+				79409B0319DDC82C009DC76F /* UIImage+MEPDFExtensions.h in CopyFiles */,
 				798D9C3318D42B8700F0A2AB /* UITableViewCell+MEExtensions.h in CopyFiles */,
 				798D9C3418D42B8700F0A2AB /* UIView+MEExtensions.h in CopyFiles */,
 				798D9C3718D42B9500F0A2AB /* MEGradientView.h in CopyFiles */,
@@ -100,6 +104,9 @@
 		791F836218F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+MEExtensions.m"; sourceTree = "<group>"; };
 		792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MEExtensions.h"; sourceTree = "<group>"; };
 		792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MEExtensions.m"; sourceTree = "<group>"; };
+		79409B0019DDC811009DC76F /* UIImage+MEPDFExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MEPDFExtensions.h"; sourceTree = "<group>"; };
+		79409B0119DDC811009DC76F /* UIImage+MEPDFExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MEPDFExtensions.m"; sourceTree = "<group>"; };
+		79409B0419DDCB21009DC76F /* contrast.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = contrast.pdf; sourceTree = "<group>"; };
 		798D9BA318D421BD00F0A2AB /* libMEKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMEKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		798D9BA618D421BD00F0A2AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		798D9BAA18D421BD00F0A2AB /* MEKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEKit-Prefix.pch"; sourceTree = "<group>"; };
@@ -281,6 +288,8 @@
 				798D9BE118D4228000F0A2AB /* UIFont+MEExtensions.m */,
 				798D9BE218D4228000F0A2AB /* UIImage+MEExtensions.h */,
 				798D9BE318D4228000F0A2AB /* UIImage+MEExtensions.m */,
+				79409B0019DDC811009DC76F /* UIImage+MEPDFExtensions.h */,
+				79409B0119DDC811009DC76F /* UIImage+MEPDFExtensions.m */,
 				798D9BE418D4228000F0A2AB /* UITableViewCell+MEExtensions.h */,
 				798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */,
 				791F836118F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.h */,
@@ -328,6 +337,7 @@
 		798D9C0318D428B000F0A2AB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				79409B0419DDCB21009DC76F /* contrast.pdf */,
 				798D9C0418D428B000F0A2AB /* MEKitDemo-Info.plist */,
 				798D9C0518D428B000F0A2AB /* InfoPlist.strings */,
 				798D9C0818D428B000F0A2AB /* main.m */,
@@ -452,6 +462,7 @@
 			files = (
 				798D9C0718D428B000F0A2AB /* InfoPlist.strings in Resources */,
 				798D9C0F18D428B000F0A2AB /* Images.xcassets in Resources */,
+				79409B0519DDCB21009DC76F /* contrast.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,6 +508,7 @@
 			files = (
 				798D9C3C18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m in Sources */,
 				792A475E18DB5F4F00CE7538 /* UIViewController+MEExtensions.m in Sources */,
+				79409B0219DDC811009DC76F /* UIImage+MEPDFExtensions.m in Sources */,
 				798D9BE918D4228000F0A2AB /* CATransaction+MEExtensions.m in Sources */,
 				798D9BF018D4228000F0A2AB /* UIFont+MEExtensions.m in Sources */,
 				791F836318F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m in Sources */,

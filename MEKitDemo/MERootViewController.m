@@ -16,6 +16,7 @@
 
 @interface MERootViewController ()
 @property (strong,nonatomic) MEGradientView *gradientView;
+@property (strong,nonatomic) UIImageView *imageView;
 @end
 
 @implementation MERootViewController
@@ -28,9 +29,16 @@
     [self setGradientView:[[MEGradientView alloc] initWithFrame:CGRectZero]];
     [self.gradientView setColors:@[[UIColor ME_colorWithHexadecimalString:@"abcdef"],[UIColor ME_colorWithHexadecimalString:@"bd1b2a"]]];
     [self.view addSubview:self.gradientView];
+    
+    [self setImageView:[[UIImageView alloc] initWithFrame:CGRectZero]];
+    [self.imageView setContentMode:UIViewContentModeCenter];
+    [self.view addSubview:self.imageView];
+    
+    [self.imageView setImage:[UIImage ME_imageWithPDFNamed:@"contrast" size:CGSizeMake(128, 128)]];
 }
 - (void)viewDidLayoutSubviews {
     [self.gradientView setFrame:self.view.bounds];
+    [self.imageView setFrame:self.view.bounds];
 }
 
 @end

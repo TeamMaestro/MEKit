@@ -10,29 +10,29 @@
 	<string>MEKitDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>23FE01B2-10E9-4A60-B803-D6FB6D8A9A68</key>
+		<key>61F337D8E4510A04F2782BB51692F26269F59739</key>
 		<string>ssh://github.com/TeamMaestro/MEKit.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>MEKitDemo.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>23FE01B2-10E9-4A60-B803-D6FB6D8A9A68</key>
+		<key>61F337D8E4510A04F2782BB51692F26269F59739</key>
 		<string>..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/TeamMaestro/MEKit.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>23FE01B2-10E9-4A60-B803-D6FB6D8A9A68</string>
+	<string>61F337D8E4510A04F2782BB51692F26269F59739</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>23FE01B2-10E9-4A60-B803-D6FB6D8A9A68</string>
+			<string>61F337D8E4510A04F2782BB51692F26269F59739</string>
 			<key>IDESourceControlWCCName</key>
 			<string>MEKit</string>
 		</dict>
