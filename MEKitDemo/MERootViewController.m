@@ -34,7 +34,7 @@
     [self.imageView setContentMode:UIViewContentModeCenter];
     [self.view addSubview:self.imageView];
     
-    [self.imageView setImage:[UIImage ME_imageWithPDFNamed:@"contrast" size:CGSizeMake(128, 128)]];
+    [self.imageView setImage:[[UIImage ME_imageWithPDFNamed:@"contrast" size:CGSizeMake(128, 128)] ME_imageByRenderingWithColor:[UIColor whiteColor]]];
 }
 - (void)viewDidLayoutSubviews {
     [self.gradientView setFrame:self.view.bounds];
