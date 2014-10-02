@@ -104,7 +104,7 @@ static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExte
             
             if (retval) {
                 if ((cacheOptions & MEPDFExtensionsCacheOptionsFile) != 0) {
-                    cacheToFile(retval,fileURL);
+                    cacheToFile(retval,fileCacheURL);
                 }
                 
                 if ((cacheOptions & MEPDFExtensionsCacheOptionsMemory) != 0) {
@@ -124,6 +124,12 @@ static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExte
 + (NSURL *)_ME_PDFExtensionsCacheDirectoryURL; {
     NSURL *directoryURL = [[NSFileManager defaultManager] URLsForDirectory:NSCachesDirectory inDomains:NSUserDomainMask].lastObject;
     NSURL *retval = [directoryURL URLByAppendingPathComponent:@"org.maestro.mekit.pdfextensions.cache" isDirectory:YES];
+    
+    if (![retval checkResourceIsReachableAndReturnError:NULL]) {
+        NSError *outError;
+        if (![[NSFileManager defaultManager] createDirectoryAtURL:retval withIntermediateDirectories:YES attributes:nil error:&outError])
+            MELogObject(outError);
+    }
     
     return retval;
 }

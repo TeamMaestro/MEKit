@@ -13,11 +13,14 @@
 
 #import "MEAppDelegate.h"
 #import "MERootViewController.h"
+#import <MEKit/MEKit.h>
 
 @implementation MEAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    [UIImage setME_defaultPDFExtensionsCacheOptions:MEPDFExtensionsCacheOptionsAll];
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
