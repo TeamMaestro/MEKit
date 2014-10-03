@@ -19,19 +19,10 @@
 
 @interface UIImage (MEPDFExtensionsPrivate)
 + (NSURL *)_ME_PDFExtensionsCacheDirectoryURL;
-+ (UIImage *)_ME_PDFExtensionsImageWithPDFURL:(NSURL *)url size:(CGSize)size scale:(CGFloat)scale contentMode:(MEPDFExtensionsContentMode)contentMode;
++ (UIImage *)_ME_PDFExtensionsImageWithPDFURL:(NSURL *)url size:(CGSize)size scale:(CGFloat)scale;
 @end
 
 @implementation UIImage (MEPDFExtensions)
-
-static void const *kME_defaultPDFExtensionsContentModeKey = &kME_defaultPDFExtensionsContentModeKey;
-
-+ (MEPDFExtensionsContentMode)ME_defaultPDFExtensionsContentMode; {
-    return [objc_getAssociatedObject(self, kME_defaultPDFExtensionsContentModeKey) integerValue];
-}
-+ (void)setME_defaultPDFExtensionsContentMode:(MEPDFExtensionsContentMode)contentMode; {
-    objc_setAssociatedObject(self, kME_defaultPDFExtensionsContentModeKey, @(contentMode), OBJC_ASSOCIATION_COPY_NONATOMIC);
-}
 
 static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExtensionsCacheOptionsKey;
 
@@ -43,12 +34,9 @@ static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExte
 }
 
 + (UIImage *)ME_imageWithPDFNamed:(NSString *)pdfName size:(CGSize)size; {
-    return [self ME_imageWithPDFNamed:pdfName inBundle:nil size:size contentMode:[self ME_defaultPDFExtensionsContentMode]];
+    return [self ME_imageWithPDFNamed:pdfName inBundle:nil size:size];
 }
-+ (UIImage *)ME_imageWithPDFNamed:(NSString *)pdfName size:(CGSize)size contentMode:(MEPDFExtensionsContentMode)contentMode; {
-    return [self ME_imageWithPDFNamed:pdfName inBundle:nil size:size contentMode:contentMode];
-}
-+ (UIImage *)ME_imageWithPDFNamed:(NSString *)pdfName inBundle:(NSBundle *)bundle size:(CGSize)size contentMode:(MEPDFExtensionsContentMode)contentMode; {
++ (UIImage *)ME_imageWithPDFNamed:(NSString *)pdfName inBundle:(NSBundle *)bundle size:(CGSize)size; {
     NSParameterAssert(pdfName);
     NSParameterAssert(!CGSizeEqualToSize(size, CGSizeZero));
     
@@ -70,7 +58,7 @@ static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExte
         bundle = [NSBundle mainBundle];
     
     CGFloat scale = [UIScreen mainScreen].scale;
-    NSString *cacheKey = [NSString stringWithFormat:@"%@%@%@%@%@",bundle.bundleURL.absoluteString.ME_MD5String,pdfName,NSStringFromCGSize(size),@(contentMode),@(scale)];
+    NSString *cacheKey = [NSString stringWithFormat:@"%@%@%@%@",bundle.bundleURL.absoluteString.ME_MD5String,pdfName,NSStringFromCGSize(size),@(scale)];
     
     void(^cacheToMemory)(UIImage *image) = ^(UIImage *image){
         NSParameterAssert(image);
@@ -105,7 +93,7 @@ static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExte
         if (!retval) {
             NSURL *fileURL = [bundle URLForResource:pdfName.stringByDeletingPathExtension withExtension:pdfName.pathExtension];
             
-            retval = [self _ME_PDFExtensionsImageWithPDFURL:fileURL size:size scale:scale contentMode:contentMode];
+            retval = [self _ME_PDFExtensionsImageWithPDFURL:fileURL size:size scale:scale];
             
             if (retval) {
                 if ((cacheOptions & MEPDFExtensionsCacheOptionsFile) != 0) {
@@ -139,7 +127,7 @@ static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExte
     return retval;
 }
 
-+ (UIImage *)_ME_PDFExtensionsImageWithPDFURL:(NSURL *)url size:(CGSize)size scale:(CGFloat)scale contentMode:(MEPDFExtensionsContentMode)contentMode; {
++ (UIImage *)_ME_PDFExtensionsImageWithPDFURL:(NSURL *)url size:(CGSize)size scale:(CGFloat)scale; {
     NSParameterAssert(url);
     NSParameterAssert(!CGSizeEqualToSize(CGSizeZero, size));
     
