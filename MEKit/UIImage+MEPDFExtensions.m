@@ -70,7 +70,7 @@ static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExte
     void(^cacheToMemory)(UIImage *image) = ^(UIImage *image){
         NSParameterAssert(image);
         
-        [kMemoryCache setObject:image forKey:cacheKey cost:image.size.width * image.size.height];
+        [kMemoryCache setObject:image forKey:cacheKey cost:image.size.width * image.size.height * image.scale];
     };
     
     void(^cacheToFile)(UIImage *image, NSURL *url) = ^(UIImage *image, NSURL *url){
@@ -90,7 +90,7 @@ static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExte
         NSURL *fileCacheURL = [[self _ME_PDFExtensionsCacheDirectoryURL] URLByAppendingPathComponent:cacheKey isDirectory:NO];
         
         if ([fileCacheURL checkResourceIsReachableAndReturnError:NULL]) {
-            retval = [UIImage imageWithContentsOfFile:fileCacheURL.path];
+            retval = [UIImage imageWithCGImage:[UIImage imageWithContentsOfFile:fileCacheURL.path].CGImage scale:scale orientation:UIImageOrientationUp];
             
             if ((cacheOptions & MEPDFExtensionsCacheOptionsMemory) != 0) {
                 cacheToMemory(retval);
