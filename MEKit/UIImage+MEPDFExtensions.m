@@ -58,7 +58,7 @@ static void const *kME_defaultPDFExtensionsCacheOptionsKey = &kME_defaultPDFExte
         bundle = [NSBundle mainBundle];
     
     CGFloat scale = [UIScreen mainScreen].scale;
-    NSString *cacheKey = [NSString stringWithFormat:@"%@%@%@%@",bundle.bundleURL.absoluteString.ME_MD5String,pdfName,NSStringFromCGSize(size),@(scale)];
+    NSString *cacheKey = [[NSString stringWithFormat:@"%@%@%@%@",bundle.bundleURL.absoluteString.ME_MD5String,pdfName,NSStringFromCGSize(size),@(scale)] stringByAppendingPathExtension:@"png"];
     
     void(^cacheToMemory)(UIImage *image) = ^(UIImage *image){
         NSParameterAssert(image);
