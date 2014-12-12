@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name = "MEKit"
-  spec.version = "1.1.0"
-  spec.authors = {"William Towe" => "willbur1984@gmail.com", "Norm Barnard" => "norm@meetmaestro.com", "Jason Anderson" => "jason@meetmaestro.com", "Josh Kovach" => "kovach.jc@gmail.com "}
+  spec.version = "1.1.1"
+  spec.authors = {"William Towe" => "willbur1984@gmail.com", "Norm Barnard" => "norm@meetmaestro.com", "Jason Anderson" => "jason@meetmaestro.com" }
   spec.license = {:type => "MIT", :file => "LICENSE.txt"}
   spec.homepage = "https://github.com/MaestroElearning/MEKit"
   spec.source = {:git => "https://github.com/MaestroElearning/MEKit.git", :tag => spec.version.to_s}
