@@ -7,29 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3B57C4C810C54534A6ABDD75 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1006C5AD5AB1444EB55FC3FF /* libPods.a */; };
-		791F836318F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 791F836218F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m */; };
-		792A475E18DB5F4F00CE7538 /* UIViewController+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */; };
-		792A475F18DB5FA800CE7538 /* UIViewController+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */; };
-		79409B0219DDC811009DC76F /* UIImage+MEPDFExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 79409B0119DDC811009DC76F /* UIImage+MEPDFExtensions.m */; };
-		79409B0319DDC82C009DC76F /* UIImage+MEPDFExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 79409B0019DDC811009DC76F /* UIImage+MEPDFExtensions.h */; };
 		79409B0519DDCB21009DC76F /* contrast.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 79409B0419DDCB21009DC76F /* contrast.pdf */; };
-		798D9BA718D421BD00F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
 		798D9BB518D421BD00F0A2AB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BB418D421BD00F0A2AB /* XCTest.framework */; };
 		798D9BB618D421BD00F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
 		798D9BB818D421BD00F0A2AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BB718D421BD00F0A2AB /* UIKit.framework */; };
-		798D9BBB18D421BD00F0A2AB /* libMEKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA318D421BD00F0A2AB /* libMEKit.a */; };
 		798D9BC118D421BD00F0A2AB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 798D9BBF18D421BD00F0A2AB /* InfoPlist.strings */; };
 		798D9BC318D421BD00F0A2AB /* MEKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BC218D421BD00F0A2AB /* MEKitTests.m */; };
-		798D9BE818D4228000F0A2AB /* CAGradientLayer+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BCD18D4228000F0A2AB /* CAGradientLayer+MEExtensions.m */; };
-		798D9BE918D4228000F0A2AB /* CATransaction+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BCF18D4228000F0A2AB /* CATransaction+MEExtensions.m */; };
-		798D9BEA18D4228000F0A2AB /* MEAnythingGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BD118D4228000F0A2AB /* MEAnythingGestureRecognizer.m */; };
-		798D9BEC18D4228000F0A2AB /* MEGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BD518D4228000F0A2AB /* MEGradientView.m */; };
-		798D9BEF18D4228000F0A2AB /* UIColor+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BDF18D4228000F0A2AB /* UIColor+MEExtensions.m */; };
-		798D9BF018D4228000F0A2AB /* UIFont+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE118D4228000F0A2AB /* UIFont+MEExtensions.m */; };
-		798D9BF118D4228000F0A2AB /* UIImage+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE318D4228000F0A2AB /* UIImage+MEExtensions.m */; };
-		798D9BF218D4228000F0A2AB /* UITableViewCell+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */; };
-		798D9BF318D4228000F0A2AB /* UIView+MEExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */; };
 		798D9BFE18D428B000F0A2AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA618D421BD00F0A2AB /* Foundation.framework */; };
 		798D9C0018D428B000F0A2AB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BFF18D428B000F0A2AB /* CoreGraphics.framework */; };
 		798D9C0118D428B000F0A2AB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BB718D421BD00F0A2AB /* UIKit.framework */; };
@@ -38,104 +21,19 @@
 		798D9C0D18D428B000F0A2AB /* MEAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9C0C18D428B000F0A2AB /* MEAppDelegate.m */; };
 		798D9C0F18D428B000F0A2AB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 798D9C0E18D428B000F0A2AB /* Images.xcassets */; };
 		798D9C2A18D4291500F0A2AB /* MERootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9C2918D4291500F0A2AB /* MERootViewController.m */; };
-		798D9C2D18D4299A00F0A2AB /* libMEKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 798D9BA318D421BD00F0A2AB /* libMEKit.a */; };
-		798D9C2E18D42B8700F0A2AB /* MEKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BD618D4228000F0A2AB /* MEKit.h */; };
-		798D9C2F18D42B8700F0A2AB /* MEKitMacros.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BD918D4228000F0A2AB /* MEKitMacros.h */; };
-		798D9C3018D42B8700F0A2AB /* UIColor+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BDE18D4228000F0A2AB /* UIColor+MEExtensions.h */; };
-		798D9C3118D42B8700F0A2AB /* UIFont+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BE018D4228000F0A2AB /* UIFont+MEExtensions.h */; };
-		798D9C3218D42B8700F0A2AB /* UIImage+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BE218D4228000F0A2AB /* UIImage+MEExtensions.h */; };
-		798D9C3318D42B8700F0A2AB /* UITableViewCell+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BE418D4228000F0A2AB /* UITableViewCell+MEExtensions.h */; };
-		798D9C3418D42B8700F0A2AB /* UIView+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BE618D4228000F0A2AB /* UIView+MEExtensions.h */; };
-		798D9C3518D42B8E00F0A2AB /* CAGradientLayer+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BCC18D4228000F0A2AB /* CAGradientLayer+MEExtensions.h */; };
-		798D9C3618D42B8E00F0A2AB /* CATransaction+MEExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BCE18D4228000F0A2AB /* CATransaction+MEExtensions.h */; };
-		798D9C3718D42B9500F0A2AB /* MEGradientView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BD418D4228000F0A2AB /* MEGradientView.h */; };
-		798D9C3818D42B9800F0A2AB /* MEAnythingGestureRecognizer.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9BD018D4228000F0A2AB /* MEAnythingGestureRecognizer.h */; };
-		798D9C3C18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D9C3B18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m */; };
-		798D9C3D18D4CF7800F0A2AB /* MESelectedLocalizationViewController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 798D9C3A18D4CD6300F0A2AB /* MESelectedLocalizationViewController.h */; };
+		7B82A72ED2A4E9E7F274635E /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B80193B349C7F1CBECDC36C2 /* Pods.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		798D9BB918D421BD00F0A2AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 798D9B9B18D421BD00F0A2AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 798D9BA218D421BD00F0A2AB;
-			remoteInfo = MEKit;
-		};
-		798D9C2B18D4299200F0A2AB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 798D9B9B18D421BD00F0A2AB /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 798D9BA218D421BD00F0A2AB;
-			remoteInfo = MEKit;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		798D9BA118D421BD00F0A2AB /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				798D9C3818D42B9800F0A2AB /* MEAnythingGestureRecognizer.h in CopyFiles */,
-				798D9C3518D42B8E00F0A2AB /* CAGradientLayer+MEExtensions.h in CopyFiles */,
-				798D9C3618D42B8E00F0A2AB /* CATransaction+MEExtensions.h in CopyFiles */,
-				792A475F18DB5FA800CE7538 /* UIViewController+MEExtensions.h in CopyFiles */,
-				798D9C2E18D42B8700F0A2AB /* MEKit.h in CopyFiles */,
-				798D9C2F18D42B8700F0A2AB /* MEKitMacros.h in CopyFiles */,
-				798D9C3D18D4CF7800F0A2AB /* MESelectedLocalizationViewController.h in CopyFiles */,
-				798D9C3018D42B8700F0A2AB /* UIColor+MEExtensions.h in CopyFiles */,
-				798D9C3118D42B8700F0A2AB /* UIFont+MEExtensions.h in CopyFiles */,
-				798D9C3218D42B8700F0A2AB /* UIImage+MEExtensions.h in CopyFiles */,
-				79409B0319DDC82C009DC76F /* UIImage+MEPDFExtensions.h in CopyFiles */,
-				798D9C3318D42B8700F0A2AB /* UITableViewCell+MEExtensions.h in CopyFiles */,
-				798D9C3418D42B8700F0A2AB /* UIView+MEExtensions.h in CopyFiles */,
-				798D9C3718D42B9500F0A2AB /* MEGradientView.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		1006C5AD5AB1444EB55FC3FF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		6668F2D7971C4E4FAFBB3873 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
-		791F836118F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionViewCell+MEExtensions.h"; sourceTree = "<group>"; };
-		791F836218F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionViewCell+MEExtensions.m"; sourceTree = "<group>"; };
-		792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MEExtensions.h"; sourceTree = "<group>"; };
-		792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MEExtensions.m"; sourceTree = "<group>"; };
-		79409B0019DDC811009DC76F /* UIImage+MEPDFExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MEPDFExtensions.h"; sourceTree = "<group>"; };
-		79409B0119DDC811009DC76F /* UIImage+MEPDFExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MEPDFExtensions.m"; sourceTree = "<group>"; };
+		10FE7785575E7E7C2D1B6DA3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		79409B0419DDCB21009DC76F /* contrast.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = contrast.pdf; sourceTree = "<group>"; };
-		798D9BA318D421BD00F0A2AB /* libMEKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMEKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		798D9BA618D421BD00F0A2AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		798D9BAA18D421BD00F0A2AB /* MEKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MEKit-Prefix.pch"; sourceTree = "<group>"; };
 		798D9BB318D421BD00F0A2AB /* MEKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MEKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		798D9BB418D421BD00F0A2AB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		798D9BB718D421BD00F0A2AB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		798D9BBE18D421BD00F0A2AB /* MEKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MEKitTests-Info.plist"; sourceTree = "<group>"; };
 		798D9BC018D421BD00F0A2AB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		798D9BC218D421BD00F0A2AB /* MEKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MEKitTests.m; sourceTree = "<group>"; };
-		798D9BCC18D4228000F0A2AB /* CAGradientLayer+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+MEExtensions.h"; sourceTree = "<group>"; };
-		798D9BCD18D4228000F0A2AB /* CAGradientLayer+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+MEExtensions.m"; sourceTree = "<group>"; };
-		798D9BCE18D4228000F0A2AB /* CATransaction+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CATransaction+MEExtensions.h"; sourceTree = "<group>"; };
-		798D9BCF18D4228000F0A2AB /* CATransaction+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CATransaction+MEExtensions.m"; sourceTree = "<group>"; };
-		798D9BD018D4228000F0A2AB /* MEAnythingGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEAnythingGestureRecognizer.h; sourceTree = "<group>"; };
-		798D9BD118D4228000F0A2AB /* MEAnythingGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEAnythingGestureRecognizer.m; sourceTree = "<group>"; };
-		798D9BD418D4228000F0A2AB /* MEGradientView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEGradientView.h; sourceTree = "<group>"; };
-		798D9BD518D4228000F0A2AB /* MEGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MEGradientView.m; sourceTree = "<group>"; };
-		798D9BD618D4228000F0A2AB /* MEKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKit.h; sourceTree = "<group>"; };
-		798D9BD918D4228000F0A2AB /* MEKitMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MEKitMacros.h; sourceTree = "<group>"; };
-		798D9BDE18D4228000F0A2AB /* UIColor+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+MEExtensions.h"; sourceTree = "<group>"; };
-		798D9BDF18D4228000F0A2AB /* UIColor+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MEExtensions.m"; sourceTree = "<group>"; };
-		798D9BE018D4228000F0A2AB /* UIFont+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+MEExtensions.h"; sourceTree = "<group>"; };
-		798D9BE118D4228000F0A2AB /* UIFont+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+MEExtensions.m"; sourceTree = "<group>"; };
-		798D9BE218D4228000F0A2AB /* UIImage+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MEExtensions.h"; sourceTree = "<group>"; };
-		798D9BE318D4228000F0A2AB /* UIImage+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MEExtensions.m"; sourceTree = "<group>"; };
-		798D9BE418D4228000F0A2AB /* UITableViewCell+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+MEExtensions.h"; sourceTree = "<group>"; };
-		798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+MEExtensions.m"; sourceTree = "<group>"; };
-		798D9BE618D4228000F0A2AB /* UIView+MEExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MEExtensions.h"; sourceTree = "<group>"; };
-		798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MEExtensions.m"; sourceTree = "<group>"; };
 		798D9BFD18D428B000F0A2AB /* MEKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MEKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		798D9BFF18D428B000F0A2AB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		798D9C0418D428B000F0A2AB /* MEKitDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MEKitDemo-Info.plist"; sourceTree = "<group>"; };
@@ -147,27 +45,17 @@
 		798D9C0E18D428B000F0A2AB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		798D9C2818D4291500F0A2AB /* MERootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MERootViewController.h; sourceTree = "<group>"; };
 		798D9C2918D4291500F0A2AB /* MERootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MERootViewController.m; sourceTree = "<group>"; };
-		798D9C3A18D4CD6300F0A2AB /* MESelectedLocalizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MESelectedLocalizationViewController.h; sourceTree = "<group>"; };
-		798D9C3B18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MESelectedLocalizationViewController.m; sourceTree = "<group>"; };
+		B80193B349C7F1CBECDC36C2 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA98A53788C151E8941046C /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		798D9BA018D421BD00F0A2AB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				798D9BA718D421BD00F0A2AB /* Foundation.framework in Frameworks */,
-				3B57C4C810C54534A6ABDD75 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		798D9BB018D421BD00F0A2AB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				798D9BB518D421BD00F0A2AB /* XCTest.framework in Frameworks */,
 				798D9BB818D421BD00F0A2AB /* UIKit.framework in Frameworks */,
-				798D9BBB18D421BD00F0A2AB /* libMEKit.a in Frameworks */,
 				798D9BB618D421BD00F0A2AB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,32 +64,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				798D9C2D18D4299A00F0A2AB /* libMEKit.a in Frameworks */,
 				798D9C0018D428B000F0A2AB /* CoreGraphics.framework in Frameworks */,
 				798D9C0118D428B000F0A2AB /* UIKit.framework in Frameworks */,
 				798D9BFE18D428B000F0A2AB /* Foundation.framework in Frameworks */,
+				7B82A72ED2A4E9E7F274635E /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B16566DDF929F39216D84C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				10FE7785575E7E7C2D1B6DA3 /* Pods.debug.xcconfig */,
+				EBA98A53788C151E8941046C /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		798D9B9A18D421BD00F0A2AB = {
 			isa = PBXGroup;
 			children = (
-				798D9BA818D421BD00F0A2AB /* MEKit */,
 				798D9BBC18D421BD00F0A2AB /* MEKitTests */,
 				798D9C0218D428B000F0A2AB /* MEKitDemo */,
 				798D9BA518D421BD00F0A2AB /* Frameworks */,
 				798D9BA418D421BD00F0A2AB /* Products */,
-				6668F2D7971C4E4FAFBB3873 /* Pods.xcconfig */,
+				4B16566DDF929F39216D84C4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
 		798D9BA418D421BD00F0A2AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				798D9BA318D421BD00F0A2AB /* libMEKit.a */,
 				798D9BB318D421BD00F0A2AB /* MEKitTests.xctest */,
 				798D9BFD18D428B000F0A2AB /* MEKitDemo.app */,
 			);
@@ -215,31 +110,9 @@
 				798D9BB418D421BD00F0A2AB /* XCTest.framework */,
 				798D9BB718D421BD00F0A2AB /* UIKit.framework */,
 				798D9BFF18D428B000F0A2AB /* CoreGraphics.framework */,
-				1006C5AD5AB1444EB55FC3FF /* libPods.a */,
+				B80193B349C7F1CBECDC36C2 /* Pods.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		798D9BA818D421BD00F0A2AB /* MEKit */ = {
-			isa = PBXGroup;
-			children = (
-				798D9BD618D4228000F0A2AB /* MEKit.h */,
-				798D9BF418D423B700F0A2AB /* Headers */,
-				798D9BF618D423DB00F0A2AB /* Categories */,
-				798D9BF718D4241C00F0A2AB /* Views */,
-				798D9C3918D4CD4500F0A2AB /* View Controllers */,
-				798D9BF818D426BA00F0A2AB /* Other */,
-				798D9BA918D421BD00F0A2AB /* Supporting Files */,
-			);
-			path = MEKit;
-			sourceTree = "<group>";
-		};
-		798D9BA918D421BD00F0A2AB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				798D9BAA18D421BD00F0A2AB /* MEKit-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		798D9BBC18D421BD00F0A2AB /* MEKitTests */ = {
@@ -258,67 +131,6 @@
 				798D9BBF18D421BD00F0A2AB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		798D9BF418D423B700F0A2AB /* Headers */ = {
-			isa = PBXGroup;
-			children = (
-				798D9BD918D4228000F0A2AB /* MEKitMacros.h */,
-			);
-			name = Headers;
-			sourceTree = "<group>";
-		};
-		798D9BF518D423C900F0A2AB /* Quartz Core */ = {
-			isa = PBXGroup;
-			children = (
-				798D9BCC18D4228000F0A2AB /* CAGradientLayer+MEExtensions.h */,
-				798D9BCD18D4228000F0A2AB /* CAGradientLayer+MEExtensions.m */,
-				798D9BCE18D4228000F0A2AB /* CATransaction+MEExtensions.h */,
-				798D9BCF18D4228000F0A2AB /* CATransaction+MEExtensions.m */,
-			);
-			name = "Quartz Core";
-			sourceTree = "<group>";
-		};
-		798D9BF618D423DB00F0A2AB /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				798D9BDE18D4228000F0A2AB /* UIColor+MEExtensions.h */,
-				798D9BDF18D4228000F0A2AB /* UIColor+MEExtensions.m */,
-				798D9BE018D4228000F0A2AB /* UIFont+MEExtensions.h */,
-				798D9BE118D4228000F0A2AB /* UIFont+MEExtensions.m */,
-				798D9BE218D4228000F0A2AB /* UIImage+MEExtensions.h */,
-				798D9BE318D4228000F0A2AB /* UIImage+MEExtensions.m */,
-				79409B0019DDC811009DC76F /* UIImage+MEPDFExtensions.h */,
-				79409B0119DDC811009DC76F /* UIImage+MEPDFExtensions.m */,
-				798D9BE418D4228000F0A2AB /* UITableViewCell+MEExtensions.h */,
-				798D9BE518D4228000F0A2AB /* UITableViewCell+MEExtensions.m */,
-				791F836118F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.h */,
-				791F836218F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m */,
-				798D9BE618D4228000F0A2AB /* UIView+MEExtensions.h */,
-				798D9BE718D4228000F0A2AB /* UIView+MEExtensions.m */,
-				792A475C18DB5F4F00CE7538 /* UIViewController+MEExtensions.h */,
-				792A475D18DB5F4F00CE7538 /* UIViewController+MEExtensions.m */,
-				798D9BF518D423C900F0A2AB /* Quartz Core */,
-			);
-			name = Categories;
-			sourceTree = "<group>";
-		};
-		798D9BF718D4241C00F0A2AB /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				798D9BD418D4228000F0A2AB /* MEGradientView.h */,
-				798D9BD518D4228000F0A2AB /* MEGradientView.m */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		798D9BF818D426BA00F0A2AB /* Other */ = {
-			isa = PBXGroup;
-			children = (
-				798D9BD018D4228000F0A2AB /* MEAnythingGestureRecognizer.h */,
-				798D9BD118D4228000F0A2AB /* MEAnythingGestureRecognizer.m */,
-			);
-			name = Other;
 			sourceTree = "<group>";
 		};
 		798D9C0218D428B000F0A2AB /* MEKitDemo */ = {
@@ -346,37 +158,9 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		798D9C3918D4CD4500F0A2AB /* View Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				798D9C3A18D4CD6300F0A2AB /* MESelectedLocalizationViewController.h */,
-				798D9C3B18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m */,
-			);
-			name = "View Controllers";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		798D9BA218D421BD00F0A2AB /* MEKit */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 798D9BC618D421BD00F0A2AB /* Build configuration list for PBXNativeTarget "MEKit" */;
-			buildPhases = (
-				53E898DF819B4340B653FD0E /* Check Pods Manifest.lock */,
-				798D9B9F18D421BD00F0A2AB /* Sources */,
-				798D9BA018D421BD00F0A2AB /* Frameworks */,
-				798D9BA118D421BD00F0A2AB /* CopyFiles */,
-				4E98940BD61341379BB1F451 /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MEKit;
-			productName = MEKit;
-			productReference = 798D9BA318D421BD00F0A2AB /* libMEKit.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		798D9BB218D421BD00F0A2AB /* MEKitTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 798D9BC918D421BD00F0A2AB /* Build configuration list for PBXNativeTarget "MEKitTests" */;
@@ -388,7 +172,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				798D9BBA18D421BD00F0A2AB /* PBXTargetDependency */,
 			);
 			name = MEKitTests;
 			productName = MEKitTests;
@@ -402,11 +185,11 @@
 				798D9BF918D428B000F0A2AB /* Sources */,
 				798D9BFA18D428B000F0A2AB /* Frameworks */,
 				798D9BFB18D428B000F0A2AB /* Resources */,
+				0C459D64337148E03BD67B19 /* Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				798D9C2C18D4299200F0A2AB /* PBXTargetDependency */,
 			);
 			name = MEKitDemo;
 			productName = MEKitDemo;
@@ -440,7 +223,6 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				798D9BA218D421BD00F0A2AB /* MEKit */,
 				798D9BB218D421BD00F0A2AB /* MEKitTests */,
 				798D9BFC18D428B000F0A2AB /* MEKitDemo */,
 			);
@@ -469,59 +251,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		4E98940BD61341379BB1F451 /* Copy Pods Resources */ = {
+		0C459D64337148E03BD67B19 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		53E898DF819B4340B653FD0E /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		798D9B9F18D421BD00F0A2AB /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				798D9C3C18D4CD6300F0A2AB /* MESelectedLocalizationViewController.m in Sources */,
-				792A475E18DB5F4F00CE7538 /* UIViewController+MEExtensions.m in Sources */,
-				79409B0219DDC811009DC76F /* UIImage+MEPDFExtensions.m in Sources */,
-				798D9BE918D4228000F0A2AB /* CATransaction+MEExtensions.m in Sources */,
-				798D9BF018D4228000F0A2AB /* UIFont+MEExtensions.m in Sources */,
-				791F836318F6F92800C0BB80 /* UICollectionViewCell+MEExtensions.m in Sources */,
-				798D9BE818D4228000F0A2AB /* CAGradientLayer+MEExtensions.m in Sources */,
-				798D9BEC18D4228000F0A2AB /* MEGradientView.m in Sources */,
-				798D9BEF18D4228000F0A2AB /* UIColor+MEExtensions.m in Sources */,
-				798D9BF118D4228000F0A2AB /* UIImage+MEExtensions.m in Sources */,
-				798D9BF218D4228000F0A2AB /* UITableViewCell+MEExtensions.m in Sources */,
-				798D9BF318D4228000F0A2AB /* UIView+MEExtensions.m in Sources */,
-				798D9BEA18D4228000F0A2AB /* MEAnythingGestureRecognizer.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		798D9BAF18D421BD00F0A2AB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -541,19 +288,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		798D9BBA18D421BD00F0A2AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 798D9BA218D421BD00F0A2AB /* MEKit */;
-			targetProxy = 798D9BB918D421BD00F0A2AB /* PBXContainerItemProxy */;
-		};
-		798D9C2C18D4299200F0A2AB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 798D9BA218D421BD00F0A2AB /* MEKit */;
-			targetProxy = 798D9C2B18D4299200F0A2AB /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		798D9BBF18D421BD00F0A2AB /* InfoPlist.strings */ = {
@@ -607,8 +341,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -639,39 +374,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		798D9BC718D421BD00F0A2AB /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6668F2D7971C4E4FAFBB3873 /* Pods.xcconfig */;
-			buildSettings = {
-				DSTROOT = /tmp/MEKit.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MEKit/MEKit-Prefix.pch";
-				OTHER_LDFLAGS = "$(inherited)";
-				PRIVATE_HEADERS_FOLDER_PATH = "${PUBLIC_HEADERS_FOLDER_PATH}/${PROJECT_NAME}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		798D9BC818D421BD00F0A2AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6668F2D7971C4E4FAFBB3873 /* Pods.xcconfig */;
-			buildSettings = {
-				DSTROOT = /tmp/MEKit.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "MEKit/MEKit-Prefix.pch";
-				OTHER_LDFLAGS = "$(inherited)";
-				PRIVATE_HEADERS_FOLDER_PATH = "${PUBLIC_HEADERS_FOLDER_PATH}/${PROJECT_NAME}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PUBLIC_HEADERS_FOLDER_PATH = include;
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
@@ -719,6 +425,7 @@
 		};
 		798D9C2318D428B000F0A2AB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10FE7785575E7E7C2D1B6DA3 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -739,10 +446,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "MEKitDemo/MEKitDemo-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -751,6 +455,7 @@
 		};
 		798D9C2418D428B000F0A2AB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBA98A53788C151E8941046C /* Pods.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -767,10 +472,7 @@
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 				);
 				INFOPLIST_FILE = "MEKitDemo/MEKitDemo-Info.plist";
-				OTHER_LDFLAGS = (
-					"-ObjC",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
@@ -785,15 +487,6 @@
 			buildConfigurations = (
 				798D9BC418D421BD00F0A2AB /* Debug */,
 				798D9BC518D421BD00F0A2AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		798D9BC618D421BD00F0A2AB /* Build configuration list for PBXNativeTarget "MEKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				798D9BC718D421BD00F0A2AB /* Debug */,
-				798D9BC818D421BD00F0A2AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

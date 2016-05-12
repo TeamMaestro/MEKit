@@ -13,7 +13,7 @@
 
 #import "MEAppDelegate.h"
 #import "MERootViewController.h"
-#import <MEKit/MEKit.h>
+@import MEKit;
 
 @implementation MEAppDelegate
 
