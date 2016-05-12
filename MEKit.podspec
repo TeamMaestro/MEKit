@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   
   spec.platform = :ios, "7.0"
   
-  spec.dependency "MEFoundation", "~> 1.0.0"
+  spec.dependency "MEFoundation", "~> 1.1.0"
   spec.requires_arc = true
   spec.frameworks = "Foundation", "CoreGraphics", "CoreText", "UIKit", "QuartzCore", "Accelerate", "CoreImage"
   
