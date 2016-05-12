@@ -1,10 +1,17 @@
 PODS:
-  - MEFoundation (1.0.2)
+  - MEFoundation (1.0.10)
+  - MEKit (1.1.2):
+    - MEFoundation (~> 1.0.0)
 
 DEPENDENCIES:
-  - MEFoundation (~> 1.0.0)
+  - MEKit (from `./`)
+
+EXTERNAL SOURCES:
+  MEKit:
+    :path: "./"
 
 SPEC CHECKSUMS:
-  MEFoundation: 623776cf922979493f4054f22aacacb9edfc42cb
+  MEFoundation: 395072f0f40587b2912182a1eb3a2363a54bbd74
+  MEKit: 7df333f93a25ae591a23aed77874158aad3cafdf
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.39.0

@@ -1,6 +1,6 @@
 platform :ios, "7.0"
 
-pod "MEFoundation", "~> 1.0.0"
+pod "MEKit", :path => './'
 
 link_with "MEKit"
 workspace "MEKitDemo"

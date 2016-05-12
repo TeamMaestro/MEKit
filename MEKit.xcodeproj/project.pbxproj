@@ -10,6 +10,35 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
+		<key>3AE174440F6F08689CC3C3D3</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BC2F189B75716B35D4038A6D</string>
+				<string>59AC91678E5F3A80F2BE18A9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>59AC91678E5F3A80F2BE18A9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>791F836118F6F92800C0BB80</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -150,6 +179,7 @@
 				<string>798D9C0218D428B000F0A2AB</string>
 				<string>798D9BA518D421BD00F0A2AB</string>
 				<string>798D9BA418D421BD00F0A2AB</string>
+				<string>3AE174440F6F08689CC3C3D3</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -819,6 +849,8 @@
 		</dict>
 		<key>798D9BC718D421BD00F0A2AB</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BC2F189B75716B35D4038A6D</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>DSTROOT</key>
@@ -845,6 +877,8 @@
 		</dict>
 		<key>798D9BC818D421BD00F0A2AB</key>
 		<dict>
+			<key>baseConfigurationReference</key>
+			<string>59AC91678E5F3A80F2BE18A9</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>DSTROOT</key>
@@ -1957,6 +1991,21 @@
 			<string>Pods.framework</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>BC2F189B75716B35D4038A6D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
