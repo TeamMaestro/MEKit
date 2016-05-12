@@ -1,6 +1,6 @@
 PODS:
   - MEFoundation (1.1.0)
-  - MEKit (1.1.2):
+  - MEKit (1.2.0):
     - MEFoundation (~> 1.1.0)
 
 DEPENDENCIES:
@@ -19,7 +19,7 @@ CHECKOUT OPTIONS:
     :git: https://github.com/TeamMaestro/MEFoundation.git
 
 SPEC CHECKSUMS:
-  MEKit: 7df333f93a25ae591a23aed77874158aad3cafdf
   MEFoundation: 5f2ba93abbcc05a40a484f760434eb46b521d4ef
+  MEKit: 69d6b0fe23b1293f7bc8e0c4cc8c065f81741f55
 
 COCOAPODS: 0.39.0
