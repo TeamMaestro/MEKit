@@ -27,6 +27,12 @@
 + (UIImage *)ME_imageNamed:(NSString *)imageName inBundleNamed:(NSString *)bundleName; {
     NSParameterAssert(imageName);
     NSParameterAssert(bundleName);
+	return [self ME_imageNamed:imageName inBundle:[NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:bundleName.stringByDeletingPathExtension withExtension:bundleName.pathExtension]]];
+}
+
++ (UIImage *)ME_imageNamed:(NSString *)imageName inBundle:(NSBundle *)bundle {
+    NSParameterAssert(imageName);
+    NSParameterAssert(bundle);
     
     static NSCache *kImageNamedCache;
     static dispatch_once_t onceToken;
@@ -41,7 +47,6 @@
     if (retina)
         imageName = [[imageName.stringByDeletingPathExtension stringByAppendingString:@"@2x"] stringByAppendingPathExtension:imageName.pathExtension];
     
-    NSBundle *bundle = [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:bundleName.stringByDeletingPathExtension withExtension:bundleName.pathExtension]];
     NSURL *url = [bundle URLForResource:imageName.stringByDeletingPathExtension withExtension:imageName.pathExtension];
     
     if (!url && retina)

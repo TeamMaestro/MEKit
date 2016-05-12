@@ -23,7 +23,17 @@
  @return The image, or nil if the image could not be located
  @exception NSException Thrown if _imageName_ or _bundleName_ are nil
  */
-+ (UIImage *)ME_imageNamed:(NSString *)imageName inBundleNamed:(NSString *)bundleName;
++ (UIImage *)ME_imageNamed:(NSString *)imageName inBundleNamed:(NSString *)bundleName __deprecated_msg("use ME_ImageNamed:inBundle:");
+
+/**
+ Searches for the given image in the given bundle, caches the result and returns it.
+ 
+ @param imageName The name of the image to search for, excluding any device/resolution modifiers (e.g. @2x, ~ipad, ~iphone, etc.)
+ @param bundle The bundle that contains the image
+ @return The image, or nil if the image could not be located
+ @exception NSException Thrown if _imageName_ or _bundle_ are nil
+ */
++ (UIImage *)ME_imageNamed:(NSString *)imageName inBundle:(NSBundle *)bundle;
 
 /**
  Returns an image created by rendering _image_ with _color_.
