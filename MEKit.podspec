@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.summary = "A collection of classes that extend the UIKit framework."
   spec.description = "This library contains a number of useful categories on UIColor, UIFont, UIImage, UITableViewCell, and UIView."
   
-  spec.platform = :ios, "7.0"
+  spec.platform = :ios, "8.0"
   
   spec.dependency "MEFoundation", "~> 1.1.0"
   spec.requires_arc = true
